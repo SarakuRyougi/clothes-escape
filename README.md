@@ -45,17 +45,21 @@ Kotlin 2.0.21 · AGP 8.5.2 · Jetpack Compose（BOM 2024.06.00）· Material 3 �
 
 ## 构建
 
-需要 JDK 17+、Android SDK（platform 34、build-tools 34+）。
+需要 JDK 17+、Android SDK（platform 34、build-tools 34+）；Gradle 由 wrapper 自动下载。
 
 ```bash
-git clone <this repo>
+git clone https://github.com/SarakuRyougi/clothes-escape.git
 cd clothes-escape
+
+# 指向本机 Android SDK
 echo "sdk.dir=/path/to/Android/sdk" > local.properties
 
-gradle assembleDebug          # 产物 app/build/outputs/apk/debug/app-debug.apk
-gradle testDebugUnitTest      # 单元测试
-gradle lintDebug              # 静态检查
+./gradlew assembleDebug        # 产物 app/build/outputs/apk/debug/app-debug.apk
+./gradlew testDebugUnitTest    # 单元测试
+./gradlew lintDebug            # 静态检查
 ```
+
+Windows 下把 `./gradlew` 换成 `gradlew.bat`。
 
 依赖走阿里云 / 腾讯镜像（见 `settings.gradle.kts`），因为 Maven Central 直连会 403。
 
