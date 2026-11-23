@@ -1,0 +1,13 @@
+# Normalise line endings for a cross-platform repo
+* text=auto eol=lf
+
+*.kt    text
+*.kts   text
+*.xml   text
+*.md    text
+*.pro   text
+*.properties text
+
+*.png   binary
+*.jpg   binary
+*.ttf   binary

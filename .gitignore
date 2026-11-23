@@ -1,0 +1,32 @@
+# Gradle / Android build output
+.gradle/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+captures/
+.cxx/
+
+# Signed / unsigned artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Build & debug scratch files
+build-log.txt
+*.hprof
+docs/ui*.xml
+
+# Bundled commercial font — NOT redistributable.
+# Drop your own licensed 方正喵呜_GBK.ttf at the path below to build with it;
+# the app falls back to the system face when the file is absent.
+app/src/main/assets/fonts/*.ttf
+app/src/main/assets/fonts/*.otf
+app/src/main/assets/fonts/*.ttc
+
+# OS noise
+Thumbs.db
+.DS_Store

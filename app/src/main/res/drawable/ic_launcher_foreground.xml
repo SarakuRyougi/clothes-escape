@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:rotation="-8"
+        android:pivotX="54"
+        android:pivotY="54">
+
+        <!-- speed lines -->
+        <path
+            android:strokeColor="#F2B48F"
+            android:strokeWidth="3.4"
+            android:strokeLineCap="round"
+            android:pathData="M18,40 L27,40" />
+        <path
+            android:strokeColor="#F2B48F"
+            android:strokeWidth="3.4"
+            android:strokeLineCap="round"
+            android:pathData="M15,49 L27,49" />
+
+        <!-- legs -->
+        <path
+            android:strokeColor="#8C5A3C"
+            android:strokeWidth="5"
+            android:strokeLineCap="round"
+            android:pathData="M48,66 L46,79" />
+        <path
+            android:strokeColor="#8C5A3C"
+            android:strokeWidth="5"
+            android:strokeLineCap="round"
+            android:pathData="M60,66 L63,79" />
+
+        <!-- feet -->
+        <path
+            android:fillColor="#6E452D"
+            android:pathData="M46,81 m-3.2,0 a3.2,3.2 0 1,0 6.4,0 a3.2,3.2 0 1,0 -6.4,0" />
+        <path
+            android:fillColor="#6E452D"
+            android:pathData="M63,81.5 m-3.2,0 a3.2,3.2 0 1,0 6.4,0 a3.2,3.2 0 1,0 -6.4,0" />
+
+        <!-- t-shirt body -->
+        <path
+            android:fillColor="#E0784E"
+            android:pathData="M30,36 L43,26 L50,23 C52,27 56,27 58,23 L65,26 L78,36 L70,45 L66,41 L66,66 C66,69 64,70.5 61,70.5 L47,70.5 C44,70.5 42,69 42,66 L42,41 L38,45 Z" />
+
+        <!-- right-side shade -->
+        <path
+            android:fillColor="#C05F38"
+            android:fillAlpha="0.5"
+            android:pathData="M66,41 L66,66 C66,69 64,70.5 61,70.5 L57,70.5 L57,44 Z" />
+
+        <!-- top highlight -->
+        <path
+            android:fillColor="#F7AE88"
+            android:fillAlpha="0.8"
+            android:pathData="M43,26 L50,23 C52,27 56,27 58,23 L62,25 L56,32 L46,33 L40,30 Z" />
+
+        <!-- collar -->
+        <path
+            android:strokeColor="#A94E2B"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:pathData="M50,24 C52,28.5 56,28.5 58,24" />
+    </group>
+</vector>

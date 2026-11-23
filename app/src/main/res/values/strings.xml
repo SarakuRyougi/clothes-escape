@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">衣服要逃跑了</string>
+    <string name="channel_collect">收衣提醒</string>
+    <string name="channel_collect_desc">到点提醒你把晾在外面的衣服收回来</string>
+</resources>
