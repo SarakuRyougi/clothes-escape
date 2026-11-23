@@ -21,6 +21,9 @@ android {
         release {
             isMinifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            // 侧载用的 release 包仍用 debug key 签名，保证 ./gradlew assembleRelease
+            // 直接产出可安装的 APK；上架应用商店前请换成自己的 release keystore。
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
 
